@@ -10,7 +10,15 @@ Cenário 01 - Realizar Pesquisa de Produtos sem Sucesso (Produto Inexistente)
     Quando a aplicação carrega o resultado da pesquisa de um produto inexistente
     Então a aplicação exibe uma mensagem de resultado de produto não encontrado
 
+Cenário 02 - Realizar Pesquisa de Produtos (Categoria: Women > Tops > T-shirts) com Sucesso
+    Dado que realizo a pesquisa do produto "T-shirts" da categoria: Women > Tops
+    Quando a aplicação carrega o resultado da pesquisa do produto "T-shirts" da categoria: Women > Tops
+    Então a aplicação exibe o resultado da pesquisa do produto "T-shirts"
 
+Cenário 03 - Realizar Pesquisa de Produtos (Categoria: Women > Tops > Blouses) com Sucesso
+    Dado que realizo a pesquisa do produto "Blouses" da categoria: Women > Tops
+    Quando a aplicação carrega o resultado da pesquisa do produto "Blouses" da categoria: Women > Tops
+    Então a aplicação exibe o resultado da pesquisa do produto "Blouses"
 
 Cenário 04 - Realizar Pesquisa de Produtos (Categoria: Dresses > Casual Dresses) com Sucesso
     Dado que realizo a pesquisa do produto "Casual Dresses" da categoria: Dresses > Casual Dresses

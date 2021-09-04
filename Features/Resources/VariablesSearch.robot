@@ -55,6 +55,22 @@ Resource                                ../Base/Base.robot
         ...                             HeaderMsgResultSummerDress=xpath\=//*[@id="center_column"]/h1/span[2]
         ...                             TxtMsgResultSummerDress=4 results have been found.
 
+        ...                             TxtSearchPrintedChiffonDress=Printed Chiffon Dress
+        ...                             HeaderTextSearch=xpath\=//*[@id="center_column"]/h1
+        ...                             TextHeaderTextSearch=SEARCH
+        ...                             HeaderTextPrintedChiffonDress=xpath\=//*[@id="center_column"]/h1/span[1]
+        ...                             TextHeaderTextPrintedChiffonDress="PRINTED CHIFFON DRESS"
+        ...                             HeaderMsgResultPrintedChiffonDress=xpath\=//*[@id="center_column"]/h1/span[2]
+        ...                             TxtMsgResultPrintedChiffonDress=2 results have been found.
+
+        ...                             TxtSearchTxtSearchFadedShortSleeveTshirts=Faded Short Sleeve T-shirts
+        ...                             HeaderTextSearch=xpath\=//*[@id="center_column"]/h1
+        ...                             TextHeaderTextSearch=SEARCH
+        ...                             HeaderTextFadedShortSleeveTshirts=xpath\=//*[@id="center_column"]/h1/span[1]
+        ...                             TextHeaderTextFadedShortSleeveTshirts="FADED SHORT SLEEVE T-SHIRTS"
+        ...                             HeaderMsgResultFadedShortSleeveTshirts=xpath\=//*[@id="center_column"]/h1/span[2]
+        ...                             TxtMsgResultFadedShortSleeveTshirts=1 result has been found.
+
 *** Keywords ***
 ### VARIÁVEIS ###
 ScrollListProduct
